@@ -1,35 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Header from "./ccomponents/Header";
+import Footer from "./ccomponents/Footer";
+import Homepage from "./ccomponents/Homepage";
+import Activities from "./ccomponents/Activities";
+import PresidentInfo from "./ccomponents/PresientInfo";
+import VicePresidentInfo from "./ccomponents/VicePresidentInfo";
+import OrganizingSecretary from "./ccomponents/OrganizingSecretary";
+import PublicityEditor from "./ccomponents/PublicityEditor";
+import Portfolio from "./ccomponents/Portfolio";
+import MemberGallery from "./ccomponents/MemberGallery";
+
+import AboutUs from "./ccomponents/AboutUs";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import BackToTop from "./ccomponents/BackToTop";
+import FAQ from "./ccomponents/Faq";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/activities" element={<Activities />} />
+          <Route path="/president" element={<PresidentInfo />} />
+          <Route path="/vicepresident" element={<VicePresidentInfo />} />
+          <Route
+            path="/organizingsecretary"
+            element={<OrganizingSecretary />}
+          />
+          <Route path="/publicityeditor" element={<PublicityEditor />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/generalmember" element={<MemberGallery />} />
+          <Route path="/faq" element={<FAQ />} />
+        </Routes>
+        <Footer />
+        <BackToTop />
+      </BrowserRouter>
+
+      {/* <MemberGallery /> */}
+
+      {/* <MemberGallery /> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
