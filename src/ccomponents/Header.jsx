@@ -89,7 +89,7 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <Link to="/portfolio">পোর্টফোলিও</Link>
+              <Link to="/portfolio">গ্যালারী</Link>
             </li>
             <li>
               <Link to="/faq">যোগাযোগ</Link>

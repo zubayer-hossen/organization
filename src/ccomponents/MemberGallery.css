@@ -46,7 +46,7 @@
   position: relative;
   color: black;
 }
-.member-card:is(:nth-child(5), :nth-child(8), :nth-child(17), ) {
+.member-card:is(:nth-child(2), :nth-child(3)) {
   background-color: red;
 }
 
