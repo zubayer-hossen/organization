@@ -9,21 +9,21 @@ const PresidentInfo = () => {
         <img
           src="https://i.ibb.co/hLDf0bS/378719501-824372939341277-437632052074849597-n.jpg"
           alt=""
-          className="president-pic "
+          className="president-pic"
         />
       </div>
       <div className="info-content">
-        <h2>Ismail Tarek</h2>
-        <p>Profession: CEO at XYZ Company</p>
-        <p>Contact: johndoe@example.com | +1234567890</p>
-        <p>Blood Group: O+</p>
+        <h2>ইসমাইল তারেক</h2>
+        <p>পেশা: XYZ কোম্পানির সিইও</p>
+        <p>যোগাযোগ: johndoe@example.com | +1234567890</p>
+        <p>রক্তের গ্রুপ: O+</p>
         <div className="speech">
-          <h3>Message to Members:</h3>
+          <h3>সদস্যদের জন্য বার্তা:</h3>
           <p>
-            "Together, we can achieve great things. Our organization is built on
-            the foundation of service, and I am honored to lead such a dedicated
-            and passionate team. Let's continue to work hard and make a positive
-            impact in our community."
+            "একসাথে, আমরা মহান কাজ করতে পারি। আমাদের সংগঠন সেবার ভিত্তির উপর
+            গঠিত, এবং এমন একটি নিবেদিত এবং উদ্যমী দলকে নেতৃত্ব দেওয়া আমার জন্য
+            সম্মানের। চলুন আমরা কঠোর পরিশ্রম চালিয়ে যাই এবং আমাদের সম্প্রদায়ে
+            ইতিবাচক প্রভাব ফেলি।"
           </p>
         </div>
       </div>

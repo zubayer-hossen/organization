@@ -40,11 +40,14 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  max-width: 200px;
+  width: 200px;
   margin: 20px auto;
   transition: transform 0.3s ease-in-out;
   position: relative;
   color: black;
+}
+.member-card:is(:nth-child(5), :nth-child(8), :nth-child(17), ) {
+  background-color: red;
 }
 
 .userid {
@@ -159,6 +162,9 @@
   .content_container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .member-card {
+    width: 200px;
+  }
 
   .filter-container {
     flex-direction: column; /* Stack the inputs vertically on smaller screens */
@@ -189,7 +195,16 @@
   .content_container {
     grid-template-columns: 1fr;
   }
-
+  .member-card {
+    width: 200px;
+  }
+  .userid {
+    top: 5px;
+    right: 5px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+  }
   .member-card {
     padding: 10px;
   }

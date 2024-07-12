@@ -25,7 +25,7 @@ const Header = () => {
     <section className="navigation">
       <div className="nav-container">
         <div className="brand">
-          <Link to="/">ISHAS</Link>
+          <Link to="/">ইশাস</Link>
         </div>
         <nav>
           <div className="nav-mobile">
@@ -40,13 +40,13 @@ const Header = () => {
           </div>
           <ul className={`nav-list ${navbarOpen ? "open" : ""}`}>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">হোম</Link>
             </li>
             <li>
-              <Link to="about">About</Link>
+              <Link to="about">আমাদের সম্পর্কে</Link>
             </li>
             <li>
-              <Link to="/activities">Activities</Link>
+              <Link to="/activities">কার্যক্রম</Link>
             </li>
             <li>
               <a
@@ -56,43 +56,43 @@ const Header = () => {
                   handleDropdownToggle(1);
                 }}
               >
-                Members
+                সদস্যগণ
               </a>
               <ul
                 className={`navbar-dropdown ${dropdownOpen[1] ? "open" : ""}`}
               >
                 <li>
                   <Link to="/president" onClick={closeDropdown}>
-                    President
+                    সভাপতি
                   </Link>
                 </li>
                 <li>
                   <Link to="/vicepresident" onClick={closeDropdown}>
-                    Vice President
+                    সহ-সভাপতি
                   </Link>
                 </li>
                 <li>
                   <Link to="/organizingsecretary" onClick={closeDropdown}>
-                    Organizing Secretary
+                    সংগঠনিক সম্পাদক
                   </Link>
                 </li>
                 <li>
                   <Link to="/publicityeditor" onClick={closeDropdown}>
-                    Publicity Editor
+                    প্রচার সম্পাদক
                   </Link>
                 </li>
                 <li>
                   <Link to="/generalmember" onClick={closeDropdown}>
-                    General Members
+                    সাধারণ সদস্য
                   </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/portfolio">পোর্টফোলিও</Link>
             </li>
             <li>
-              <Link to="/faq">Contact</Link>
+              <Link to="/faq">যোগাযোগ</Link>
             </li>
           </ul>
         </nav>

@@ -14,6 +14,7 @@ import AboutUs from "./ccomponents/AboutUs";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import BackToTop from "./ccomponents/BackToTop";
 import FAQ from "./ccomponents/Faq";
+import ComingSoon from "./ccomponents/ComingSoon";
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
           <Route path="/publicityeditor" element={<PublicityEditor />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/generalmember" element={<MemberGallery />} />
-          <Route path="/faq" element={<FAQ />} />
+          <Route path="/faq" element={<ComingSoon />} />
         </Routes>
         <Footer />
         <BackToTop />

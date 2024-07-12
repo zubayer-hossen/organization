@@ -9,23 +9,23 @@ const OrganizingSecretary = () => {
         <img
           src="https://i.ibb.co/1rQNypn/Screenshot-2024-07-07-024108.png"
           alt=""
-          className="president-pic "
+          className="president-pic"
         />
       </div>
       <div className="info-content">
-        <h2>Md. Al Mamun</h2>
-        <p>Profession: CEO at XYZ Company</p>
-        <p>Contact: johndoe@example.com | +1234567890</p>
-        <p>Blood Group: O+</p>
+        <h2>মোঃ আল মামুন</h2>
+        <p>পেশা: XYZ কোম্পানির সিইও</p>
+        <p>যোগাযোগ: johndoe@example.com | +1234567890</p>
+        <p>রক্তের গ্রুপ: O+</p>
         <div className="speech">
-          <h3>Message to Members:</h3>
+          <h3>সদস্যদের জন্য বার্তা:</h3>
           <p>
-            "Dear members, it is an honor to serve as your Organizing Secretary.
-            Together, let us strive for excellence in every endeavor we
-            undertake. Let's work hand in hand to organize impactful events and
-            initiatives that benefit our community. Your dedication and support
-            are invaluable in our journey towards a brighter future. Thank you
-            for your commitment."
+            "প্রিয় সদস্যবৃন্দ, আপনাদের সংগঠক সচিব হিসাবে কাজ করা আমার জন্য
+            সম্মানের। আমরা একসাথে আমাদের প্রতিটি প্রচেষ্টায় শ্রেষ্ঠত্ব অর্জনের
+            জন্য চেষ্টা করি। চলুন আমরা আমাদের সম্প্রদায়ের উপকারের জন্য
+            প্রভাবশালী ইভেন্ট এবং উদ্যোগগুলি সংগঠিত করতে হাতে হাত মিলিয়ে কাজ
+            করি। আমাদের উজ্জ্বল ভবিষ্যতের পথে আপনার উৎসর্গ এবং সমর্থন অমূল্য।
+            আপনার প্রতিশ্রুতির জন্য আপনাকে ধন্যবাদ।"
           </p>
         </div>
       </div>

@@ -9,25 +9,25 @@ const PublicityEditor = () => {
         <img
           src="https://i.ibb.co/r0m3cCh/274514532-1390772474685942-2679935927612332077-n.jpg"
           alt=""
-          className="president-pic "
+          className="president-pic"
         />
       </div>
       <div className="info-content">
-        <h2>ZUBAYER HOSSEN</h2>
-        <p>Profession: CEO at XYZ Company</p>
-        <p>Contact: zubayerhossen914@gmail.com| +8801580856397</p>
-        <p>Blood Group: O+</p>
+        <h2>জুবায়ের হোসেন</h2>
+        <p>পেশা: XYZ কোম্পানির সিইও</p>
+        <p>যোগাযোগ: zubayerhossen914@gmail.com | +৮৮০১৫৮০৮৫৬৩৯৭</p>
+        <p>রক্তের গ্রুপ: O+</p>
         <div className="speech">
-          <h3>Message to Members:</h3>
+          <h3>সদস্যদের জন্য বার্তা:</h3>
           <p>
-            "Dear friends and fellow members, it is with immense pride and
-            enthusiasm that I serve as your Publicity Editor. My role is not
-            just about spreading information; it's about amplifying our
-            collective voice and showcasing our impact. Together, let's harness
-            the power of communication to inspire action and unity within our
-            community. Your support and involvement are key to our success.
-            Thank you for trusting me with this responsibility. Let's make our
-            organization shine brighter than ever!"
+            "প্রিয় বন্ধুরা এবং সহ সদস্যবৃন্দ, আমি আপনার প্রচার সম্পাদক হিসেবে
+            দায়িত্ব পালন করতে পেরে অত্যন্ত গর্বিত এবং উৎসাহী। আমার ভূমিকা
+            শুধুমাত্র তথ্য প্রচারের জন্য নয়; এটি আমাদের সম্মিলিত কণ্ঠস্বরকে
+            উজ্জ্বল করা এবং আমাদের প্রভাব প্রদর্শনের জন্য। একসাথে, আসুন আমরা
+            যোগাযোগের শক্তিকে কাজে লাগিয়ে আমাদের সম্প্রদায়ের মধ্যে কর্ম ও
+            ঐক্যকে অনুপ্রাণিত করি। আমাদের সাফল্যের চাবিকাঠি হল আপনার সমর্থন এবং
+            অংশগ্রহণ। এই দায়িত্ব আমাকে দেওয়ার জন্য আপনাকে ধন্যবাদ। আসুন আমাদের
+            সংগঠনকে আগের চেয়ে উজ্জ্বল করি!"
           </p>
         </div>
       </div>

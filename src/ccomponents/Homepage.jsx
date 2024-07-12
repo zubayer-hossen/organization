@@ -27,35 +27,35 @@ const Homepage = () => {
       {/* Breaking News Section */}
       <div className={styles.breakingNews}>
         <animated.div style={breakingNewsProps} className={styles.newsText}>
-          Breaking News: Upcoming blood donation camp on 15th July!
+          সর্বশেষ সংবাদ: আসন্ন রক্তদান শিবির ১৫ই জুলাই!
         </animated.div>
       </div>
 
       {/* Banner Image Slider */}
-      <div className={styles.bannerSlider}>
+      <div className={styles.bannerSlider} id="banner_area">
         <Slider {...sliderSettings}>
           <div>
-            <img src="https://i.ibb.co/9yG5YGn/banner1.jpg" alt="Banner 1" />
+            <img src="https://i.ibb.co/9yG5YGn/banner1.jpg" alt="ব্যানার ১" />
           </div>
           <div>
-            <img src="https://i.ibb.co/YTv9xyD/banner2.jpg" alt="Banner 2" />
+            <img src="https://i.ibb.co/YTv9xyD/banner2.jpg" alt="ব্যানার ২" />
           </div>
           <div>
-            <img src="https://i.ibb.co/WyDfXyn/banner3.jpg" alt="Banner 3" />
+            <img src="https://i.ibb.co/WyDfXyn/banner3.jpg" alt="ব্যানার ৩" />
           </div>
         </Slider>
       </div>
 
       {/* National Section */}
-      <div className={styles.nationalSection}>
+      <div className={styles.nationalSection} id="national">
         {/* National Anthem Section */}
         <div className={styles.nationalAnthem}>
-          <h2>National Anthem</h2>
+          <h2>জাতীয় সংগীত</h2>
           <iframe
             width="560"
             height="315"
             src="https://www.youtube.com/embed/9AL7YVKNmlc?si=bRvuA8EPSBYH9M-M"
-            title="YouTube video player"
+            title="YouTube ভিডিও প্লেয়ার"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
@@ -65,42 +65,28 @@ const Homepage = () => {
 
         {/* Notice Board Section */}
         <div className={styles.noticeBoard}>
-          <h2>Notice Board</h2>
+          <h2>নোটিশ বোর্ড</h2>
           <ul className="notice">
-            <li className={styles.listItem}>Blood Donation Camp - 15th July</li>
-            <li className={styles.listItem}>Sports Meet - 20th July</li>
-            <li className={styles.listItem}>Cultural Program - 25th July</li>
+            <li className={styles.listItem}>রক্তদান শিবির - ১৫ই জুলাই</li>
+            <li className={styles.listItem}>
+              ক্রীড়া প্রতিযোগিতা - ২০শে জুলাই
+            </li>
+            <li className={styles.listItem}>
+              সাংস্কৃতিক অনুষ্ঠান - ২৫শে জুলাই
+            </li>
           </ul>
         </div>
       </div>
 
-      {/* About Us Section
-      <div className={styles.aboutUs}>
-        <h2>About Us</h2>
-        <p>
-          Our organization is dedicated to human welfare, helping the needy,
-          collecting blood donors, organizing religious events, conducting
-          sports, cultural programs, and other developmental activities.
-        </p>
-      </div> */}
-
       {/* Upcoming Events Section */}
       <div className={styles.upcomingEvents}>
-        <h2>Upcoming Events</h2>
+        <h2>আসন্ন ইভেন্ট</h2>
         <ul>
-          <li className={styles.listItem}>Blood Donation Camp - 15th July</li>
-          <li className={styles.listItem}>Sports Meet - 20th July</li>
-          <li className={styles.listItem}>Cultural Program - 25th July</li>
+          <li className={styles.listItem}>রক্তদান শিবির - ১৫ই জুলাই</li>
+          <li className={styles.listItem}>ক্রীড়া প্রতিযোগিতা - ২০শে জুলাই</li>
+          <li className={styles.listItem}>সাংস্কৃতিক অনুষ্ঠান - ২৫শে জুলাই</li>
         </ul>
       </div>
-
-      {/* Contact Us Section
-      <div className={styles.contactUs}>
-        <h2>Contact Us</h2>
-        <p>Email: info@organization.com</p>
-        <p>Phone: +123 456 7890</p>
-        <p>Address: 123 Village Road, City, Country</p>
-      </div> */}
     </div>
   );
 };

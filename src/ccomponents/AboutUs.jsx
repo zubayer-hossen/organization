@@ -5,36 +5,34 @@ const AboutUs = () => {
   return (
     <section className="about-us">
       <div className="container">
-        <h1 className="title">About Us</h1>
+        <h1 className="title">আমাদের সম্পর্কে</h1>
         <p className="description">
-          Welcome to ISHAS, our organization dedicated to human welfare. We are
-          committed to helping the needy, organizing blood donation drives,
-          hosting religious events, and conducting various sports, cultural, and
-          developmental activities. Our mission is to create a positive impact
-          in our community and beyond.
+          ইশাস-এ স্বাগতম, আমাদের সংগঠন যা মানব কল্যাণে নিবেদিত। আমরা দরিদ্রদের
+          সাহায্য করতে, রক্তদান অভিযান সংগঠিত করতে, ধর্মীয় অনুষ্ঠান আয়োজন করতে
+          এবং বিভিন্ন ক্রীড়া, সাংস্কৃতিক এবং উন্নয়নমূলক কার্যক্রম পরিচালনা
+          করতে প্রতিশ্রুতিবদ্ধ। আমাদের লক্ষ্য হল আমাদের সম্প্রদায় এবং তার
+          বাইরেও একটি ইতিবাচক প্রভাব তৈরি করা।
         </p>
         <div className="cards">
           <div className="card">
-            <h2>Our Mission</h2>
+            <h2>আমাদের মিশন</h2>
             <p>
-              To provide support and assistance to those in need, foster
-              community spirit, and promote overall well-being through various
-              activities and programs.
+              দরিদ্রদের সমর্থন এবং সহায়তা প্রদান করা, সম্প্রদায়ের মনোবল বৃদ্ধি
+              করা, এবং বিভিন্ন কার্যক্রম ও প্রোগ্রামের মাধ্যমে সামগ্রিক মঙ্গল
+              প্রচার করা।
             </p>
           </div>
           <div className="card">
-            <h2>Our Vision</h2>
+            <h2>আমাদের লক্ষ্য</h2>
             <p>
-              To build a compassionate and inclusive society where everyone has
-              the opportunity to thrive and contribute to the community's
-              growth.
+              একটি সহানুভূতিশীল এবং অন্তর্ভুক্তিমূলক সমাজ গঠন করা যেখানে
+              প্রত্যেকে সম্প্রদায়ের বৃদ্ধিতে সহায়তা করার এবং সমৃদ্ধির সুযোগ
+              পায়।
             </p>
           </div>
           <div className="card">
-            <h2>Our Values</h2>
-            <p>
-              Compassion, Integrity, Inclusivity, Collaboration, and Dedication.
-            </p>
+            <h2>আমাদের মূল্যবোধ</h2>
+            <p>সহানুভূতি, সততা, অন্তর্ভুক্তি, সহযোগিতা, এবং প্রতিশ্রুতি।</p>
           </div>
         </div>
       </div>
