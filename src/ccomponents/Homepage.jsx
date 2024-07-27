@@ -27,7 +27,8 @@ const Homepage = () => {
       {/* Breaking News Section */}
       <div className={styles.breakingNews}>
         <animated.div style={breakingNewsProps} className={styles.newsText}>
-          সর্বশেষ সংবাদ: আসন্ন রক্তদান শিবির ১৫ই জুলাই!
+          সর্বশেষ সংবাদ: দেশের পরিস্থিতি বিবেচনা করে সাময়িক সময়ের জন্য আমাদের
+          সাংগঠনিক কার্যক্রম বন্ধ থাকবে !
         </animated.div>
       </div>
 
@@ -82,9 +83,7 @@ const Homepage = () => {
       <div className={styles.upcomingEvents}>
         <h2>আসন্ন ইভেন্ট</h2>
         <ul>
-          <li className={styles.listItem}>রক্তদান শিবির - ১৫ই জুলাই</li>
-          <li className={styles.listItem}>ক্রীড়া প্রতিযোগিতা - ২০শে জুলাই</li>
-          <li className={styles.listItem}>সাংস্কৃতিক অনুষ্ঠান - ২৫শে জুলাই</li>
+          <li className={styles.listItem}>কোনো ইভেন্ট নাই </li>
         </ul>
       </div>
     </div>

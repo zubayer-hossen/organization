@@ -79,6 +79,12 @@ nav ul li a {
   color: #fff;
 }
 
+nav ul li .navlink:hover,
+nav ul li .navlink.active {
+  background: #f0b1f7;
+  color: #ffffff;
+}
+
 nav ul li a:hover,
 nav ul li a:visited:hover {
   background: #2581dc;

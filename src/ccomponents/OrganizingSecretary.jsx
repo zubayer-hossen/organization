@@ -14,9 +14,9 @@ const OrganizingSecretary = () => {
       </div>
       <div className="info-content">
         <h2>মোঃ আল মামুন</h2>
-        <p>পেশা: XYZ কোম্পানির সিইও</p>
-        <p>যোগাযোগ: johndoe@example.com | +1234567890</p>
-        <p>রক্তের গ্রুপ: O+</p>
+        <p>পেশা: স্টুডেন্ট</p>
+        <p>যোগাযোগ: almamun@gmail.com | +8801974645992</p>
+        <p>রক্তের গ্রুপ: B+</p>
         <div className="speech">
           <h3>সদস্যদের জন্য বার্তা:</h3>
           <p>

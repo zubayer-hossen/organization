@@ -1,12 +1,12 @@
 /* General Styles */
 .about-us {
   padding: 50px 20px;
-
   text-align: center;
+  perspective: 1000px;
 }
 
-.container {
-  max-width: 1200px;
+.about_container {
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -36,12 +36,13 @@
   background: #fff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   flex: 1;
   min-width: 280px;
   max-width: 300px;
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
   animation: fadeInUp 1.5s ease-in-out;
+  transform-style: preserve-3d;
 }
 
 .card h2 {
@@ -55,7 +56,8 @@
 }
 
 .card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-10px) rotateY(10deg);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 /* Animations */
@@ -94,5 +96,10 @@
 @media (max-width: 768px) {
   .cards {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 100%;
   }
 }

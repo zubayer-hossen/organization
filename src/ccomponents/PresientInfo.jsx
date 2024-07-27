@@ -14,9 +14,9 @@ const PresidentInfo = () => {
       </div>
       <div className="info-content">
         <h2>ইসমাইল তারেক</h2>
-        <p>পেশা: XYZ কোম্পানির সিইও</p>
-        <p>যোগাযোগ: johndoe@example.com | +1234567890</p>
-        <p>রক্তের গ্রুপ: O+</p>
+        <p>পেশা: Member of NSI BD</p>
+        <p>যোগাযোগ: ismailhossen@gmail.com | +8801950252338</p>
+        <p>রক্তের গ্রুপ: B+</p>
         <div className="speech">
           <h3>সদস্যদের জন্য বার্তা:</h3>
           <p>

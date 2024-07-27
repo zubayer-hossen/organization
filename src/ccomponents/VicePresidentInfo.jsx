@@ -14,9 +14,9 @@ const VicePresidentInfo = () => {
       </div>
       <div className="info-content">
         <h2>জি এম খায়রুল ইসলাম</h2>
-        <p>পেশা: XYZ কোম্পানির সিইও</p>
-        <p>যোগাযোগ: johndoe@example.com | +1234567890</p>
-        <p>রক্তের গ্রুপ: O+</p>
+        <p>পেশা: RFL কোম্পানির মার্কেটার</p>
+        <p>যোগাযোগ: gmkhairul@gmail.com | +8801943510559</p>
+        <p>রক্তের গ্রুপ: B+</p>
         <div className="speech">
           <h3>সদস্যদের জন্য বার্তা:</h3>
           <p>

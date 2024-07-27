@@ -14,9 +14,9 @@ const PublicityEditor = () => {
       </div>
       <div className="info-content">
         <h2>জুবায়ের হোসেন</h2>
-        <p>পেশা: XYZ কোম্পানির সিইও</p>
-        <p>যোগাযোগ: zubayerhossen914@gmail.com | +৮৮০১৫৮০৮৫৬৩৯৭</p>
-        <p>রক্তের গ্রুপ: O+</p>
+        <p>পেশা: Web Developer</p>
+        <p>যোগাযোগ: zubayerhossen914@gmail.com | +8801580856397</p>
+        <p>রক্তের গ্রুপ: A+</p>
         <div className="speech">
           <h3>সদস্যদের জন্য বার্তা:</h3>
           <p>

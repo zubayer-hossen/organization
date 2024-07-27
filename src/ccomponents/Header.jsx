@@ -1,6 +1,6 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -25,7 +25,7 @@ const Header = () => {
     <section className="navigation">
       <div className="nav-container">
         <div className="brand">
-          <Link to="/">ইশাস</Link>
+          <NavLink to="/">ইশাস</NavLink>
         </div>
         <nav>
           <div className="nav-mobile">
@@ -40,13 +40,19 @@ const Header = () => {
           </div>
           <ul className={`nav-list ${navbarOpen ? "open" : ""}`}>
             <li>
-              <Link to="/">হোম</Link>
+              <NavLink to="/" className="navlink" exact>
+                হোম
+              </NavLink>
             </li>
             <li>
-              <Link to="about">আমাদের সম্পর্কে</Link>
+              <NavLink to="/about" className="navlink">
+                আমাদের সম্পর্কে
+              </NavLink>
             </li>
             <li>
-              <Link to="/activities">কার্যক্রম</Link>
+              <NavLink to="/activities" className="navlink">
+                কার্যক্রম
+              </NavLink>
             </li>
             <li>
               <a
@@ -62,37 +68,61 @@ const Header = () => {
                 className={`navbar-dropdown ${dropdownOpen[1] ? "open" : ""}`}
               >
                 <li>
-                  <Link to="/president" onClick={closeDropdown}>
+                  <NavLink
+                    to="/president"
+                    onClick={closeDropdown}
+                    className="navlink"
+                  >
                     সভাপতি
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/vicepresident" onClick={closeDropdown}>
+                  <NavLink
+                    to="/vicepresident"
+                    onClick={closeDropdown}
+                    className="navlink"
+                  >
                     সহ-সভাপতি
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/organizingsecretary" onClick={closeDropdown}>
+                  <NavLink
+                    to="/organizingsecretary"
+                    onClick={closeDropdown}
+                    className="navlink"
+                  >
                     সংগঠনিক সম্পাদক
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/publicityeditor" onClick={closeDropdown}>
+                  <NavLink
+                    to="/publicityeditor"
+                    onClick={closeDropdown}
+                    className="navlink"
+                  >
                     প্রচার সম্পাদক
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/generalmember" onClick={closeDropdown}>
+                  <NavLink
+                    to="/generalmember"
+                    onClick={closeDropdown}
+                    className="navlink"
+                  >
                     সাধারণ সদস্য
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="/portfolio">গ্যালারী</Link>
+              <NavLink to="/portfolio" className="navlink">
+                গ্যালারী
+              </NavLink>
             </li>
             <li>
-              <Link to="/faq">যোগাযোগ</Link>
+              <NavLink to="/faq" className="navlink">
+                যোগাযোগ
+              </NavLink>
             </li>
           </ul>
         </nav>
