@@ -48,7 +48,7 @@ const MemberGallery = () => {
             </div>
             <div className="member-info">
               <h2>{user.name}</h2>
-              <p>Phone: {user.phone}</p>
+              <p>Phone: {`Click CallMe`}</p>
               <p>
                 Blood Group: <span className="bg_group">{user.bg}</span>
               </p>

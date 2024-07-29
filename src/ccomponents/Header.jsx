@@ -120,7 +120,7 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/faq" className="navlink">
+              <NavLink to="/contactus" className="navlink">
                 যোগাযোগ
               </NavLink>
             </li>

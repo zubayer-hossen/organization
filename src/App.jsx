@@ -15,6 +15,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import BackToTop from "./ccomponents/BackToTop";
 import FAQ from "./ccomponents/Faq";
 import ComingSoon from "./ccomponents/ComingSoon";
+import ContactUs from "./ccomponents/ContactUs";
+import ProfileModal from "./ccomponents/ProfileModal";
 
 function App() {
   return (
@@ -34,10 +36,11 @@ function App() {
           <Route path="/publicityeditor" element={<PublicityEditor />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/generalmember" element={<MemberGallery />} />
-          <Route path="/faq" element={<ComingSoon />} />
+          <Route path="/contactus" element={<ComingSoon />} />
         </Routes>
         <Footer />
         <BackToTop />
+        <ProfileModal />
       </BrowserRouter>
 
       {/* <MemberGallery /> */}

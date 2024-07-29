@@ -4,7 +4,7 @@ import memberPic from "/images/president.jpg"; // Update the path if necessary
 
 const MemberCard = () => {
   return (
-    <div className="member-card">
+    <div className="member-cards">
       <img src={memberPic} alt="Member" className="member-pic" />
       <div className="member-info">
         <h2>John Doe</h2>
