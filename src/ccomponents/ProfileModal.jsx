@@ -39,7 +39,7 @@ const ProfileModal = () => {
         />
 
         <h2>Zubayer Hossen</h2>
-        <p>
+        <p className="detail">
           Zubayer Hossen is a skilled web designer and the creative mind behind
           our organization's website. With a passion for user-friendly and
           visually appealing designs, he has played a crucial role in enhancing

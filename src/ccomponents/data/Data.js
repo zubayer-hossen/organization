@@ -201,7 +201,7 @@ const DataOfMembers = [
     phone: "+8801951993548",
     fb: "https://www.facebook.com/",
     bg: "AB+",
-    img: "#",
+    img: "https://i.ibb.co/m8xNKB2/download-7.jpg",
     noimg: imageNotFound,
   },
   {
