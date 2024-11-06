@@ -654,7 +654,7 @@ const DataOfMembers = [
     name: "Md Umayer Hossain",
     phone: "+8801721046227",
     fb: "https://www.facebook.com/profile.php?id=61565894962635&mibextid=LQQJ4d",
-    bg: " ",
+    bg: "A+",
     img: "https://i.ibb.co.com/3NrBgG6/B8-B8230-E-0-EE5-4-C1-B-9238-77-E5324-C65-F4.jpg",
     noimg: imageNotFound,
   },
